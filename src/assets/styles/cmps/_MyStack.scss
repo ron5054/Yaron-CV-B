@@ -20,6 +20,10 @@
         align-items: center;
         justify-items: center;
 
+        @include for-medium-layout {
+            grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+        }
+
         img {
             width: 100%;
 
