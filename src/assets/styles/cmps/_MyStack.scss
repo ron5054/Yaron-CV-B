@@ -23,7 +23,7 @@
         img {
             width: 100%;
 
-            &:first-of-type {
+            &:nth-child(5) {
                 scale: 142%;
             }
         }

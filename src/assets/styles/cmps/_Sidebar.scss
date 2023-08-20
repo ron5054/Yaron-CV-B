@@ -15,6 +15,12 @@
         transform: translateY(0);
     }
 
+    @include for-medium-layout {
+        left: 0;
+        top: 20vh;
+        scale: 60%;
+    }
+
     div {
         display: flex;
         justify-content: space-between;

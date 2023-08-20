@@ -1,6 +1,6 @@
 .proj-container {
     grid-column: 2;
-    margin-top: 2rem;
+    margin-block-start: 6rem;
 
     .cv-btn {
 
@@ -24,6 +24,7 @@
     }
 
     .img-container {
+        margin-block-start: 3rem;
         margin-inline-start: auto;
         justify-self: end;
         cursor: pointer;

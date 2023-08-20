@@ -6,9 +6,14 @@
     right: 68px;
     top: 322px;
 
+    @include for-medium-layout {
+        top: 30vh;
+    }
+
     @include for-mobile-layout {
         display: none;
     }
+
 
     ul {
         display: flex;

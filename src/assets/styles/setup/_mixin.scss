@@ -3,3 +3,9 @@
         @content;
     }
 }
+
+@mixin for-medium-layout {
+    @media (max-width: calc($medium-breakpoint + 40px)) {
+        @content;
+    }
+}
