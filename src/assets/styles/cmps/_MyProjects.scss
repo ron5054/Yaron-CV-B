@@ -1,0 +1,242 @@
+.my-proj {
+    margin-block-start: 40rem;
+    grid-column: 2;
+
+    @include for-mobile-layout {
+        margin-block-start: 10rem;
+    }
+
+    .tuneify {
+
+        h1 {
+            transform: translateY(100px);
+            transition: transform 1s ease-out;
+            font-size: 3rem;
+            font-weight: 400;
+
+            span {
+                color: $clr1;
+            }
+        }
+
+        .tuneify-img {
+            transform: translateY(100px);
+            transition: transform 2s ease-out;
+            position: relative;
+            border-radius: 1rem;
+
+            img {
+                border-radius: 2rem;
+                width: 100%
+            }
+
+            a {
+                background-color: white;
+                border-radius: 500px;
+                position: absolute;
+                bottom: 2rem;
+                left: 2rem;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                text-decoration: none;
+                color: black;
+
+
+                &.code {
+                    left: 10rem;
+                }
+            }
+
+            &:hover {
+                outline: 1px solid $clr1;
+
+                a {
+                    background-color: rgb(50, 50, 50);
+                    color: white;
+                    transition: 0.3s;
+                }
+
+            }
+        }
+
+        h2 {
+            transform: translateY(100px);
+            transition: transform 2.5s ease-out;
+            font-weight: 400;
+            max-width: fit-content;
+            cursor: pointer;
+
+            &.hover-underline {
+                position: relative;
+
+                &:hover::after {
+                    transform: scaleX(1);
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -8px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: white;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform 0.3s ease;
+                }
+
+            }
+
+        }
+
+        p {
+            transform: translateY(100px);
+            transition: transform 2s ease-out;
+            line-height: 1.7;
+            color: $clr2
+        }
+    }
+
+    .first-proj {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+
+        h1 {
+            font-weight: 400;
+        }
+
+        p {
+            color: $clr2;
+        }
+
+        .mine {
+
+            transition: transform 1s ease-out;
+            transform: translatex(-270px);
+
+            img {
+                width: 100%;
+                border-radius: 1rem;
+                aspect-ratio: 1 / 1;
+
+            }
+
+            &:hover {
+
+                a {
+                    a {
+                        background-color: rgb(50, 50, 50);
+                        color: white;
+                    }
+                }
+
+            }
+
+            a {
+                position: relative;
+
+                a {
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 500px;
+                    bottom: 4rem;
+                    left: 0.5rem;
+                    padding: 0.5rem 1rem 0.5rem 1rem;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+
+        .meme {
+
+            transition: transform 1s ease-out;
+            transform: translatex(270px);
+
+            img {
+                aspect-ratio: 1 / 1;
+                width: 100%;
+                border-radius: 1rem;
+            }
+
+            a {
+                position: relative;
+
+                a {
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 500px;
+                    bottom: 4rem;
+                    left: 0.5rem;
+                    padding: 0.5rem 1rem 0.5rem 1rem;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            &:hover {
+
+                a {
+                    a {
+                        transition: .3s;
+                        background-color: rgb(50, 50, 50);
+                        color: white;
+                    }
+                }
+
+            }
+        }
+
+
+
+    }
+
+    .gmail {
+        transition: transform 1s ease-out;
+        transform: translatey(-350px);
+
+        h1 {
+            font-weight: 400;
+        }
+
+        a {
+            position: relative;
+
+            a {
+                position: absolute;
+                background-color: white;
+                border-radius: 500px;
+                bottom: 4rem;
+                left: 0.5rem;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                text-decoration: none;
+                color: black;
+            }
+
+            img {
+                border-radius: 1rem;
+            }
+
+            &:hover {
+                a {
+                    transition: .3s;
+                    background-color: rgb(50, 50, 50);
+                    color: white;
+                }
+
+            }
+        }
+
+        p {
+            color: $clr2;
+        }
+
+    }
+}
+
+.scroll-up {
+    transform: translateX(0px) !important;
+    transform: translateY(0px) !important;
+}

@@ -1,0 +1,48 @@
+.navbar {
+    width: max-content;
+    border: 1px solid $clr2;
+    border-radius: 500px;
+    position: fixed;
+    right: 68px;
+    top: 322px;
+
+    @include for-mobile-layout {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        list-style: none;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+        margin: 0;
+
+        li {
+            &.active {
+                a {
+                    i {
+                        color: $clr1;
+                        transition: .3s ease-in-out;
+                    }
+                }
+            }
+
+            &:hover {
+                a {
+                    i {
+                        color: $clr1;
+                        transition: .3s ease-in-out;
+                    }
+                }
+            }
+
+            a {
+                i {
+                    font-size: 1.4rem;
+                    color: #9999;
+                }
+            }
+        }
+    }
+}

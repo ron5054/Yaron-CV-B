@@ -1,0 +1,32 @@
+.my-stack {
+    margin-top: 10rem;
+    grid-column: 2;
+    display: grid;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 400;
+
+        span {
+            color: $clr1;
+        }
+    }
+
+
+    .stack-imgs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+        gap: 2rem;
+        align-items: center;
+        justify-items: center;
+
+        img {
+            width: 100%;
+
+            &:first-of-type {
+                scale: 142%;
+            }
+        }
+
+    }
+}

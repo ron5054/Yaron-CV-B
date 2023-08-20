@@ -1,0 +1,20 @@
+.about-me {
+    grid-column: 2;
+
+    h1 {
+        margin-block-start: 16rem;
+        font-size: 3rem;
+        font-weight: 400;
+
+        span {
+            color: $clr1
+        }
+
+        ;
+    }
+
+    p {
+        color: $clr2;
+        line-height: 1.8rem;
+    }
+}

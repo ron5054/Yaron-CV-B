@@ -1,0 +1,15 @@
+// setup
+@import './setup/variables';
+@import './setup/mixin';
+@import './setup/typography';
+@import './basics/base';
+
+// cmps
+@import './cmps/Navbar.scss';
+@import './cmps/Sidebar';
+@import './cmps/MyProjectsBtn';
+@import './cmps/AboutMe';
+@import './cmps/MyProjects';
+@import './cmps/Introduce';
+@import './cmps/MyStack';
+@import './cmps/Education';

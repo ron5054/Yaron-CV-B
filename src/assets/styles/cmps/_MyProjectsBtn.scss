@@ -1,0 +1,78 @@
+.proj-container {
+    grid-column: 2;
+    margin-top: 2rem;
+
+    .cv-btn {
+
+        .la-download {
+            margin-inline-end: .5rem;
+        }
+
+        font-size: 1.16rem;
+        color: black;
+        border-radius: 500px;
+        border: 2px solid $clr1;
+        padding: 1rem;
+        cursor: pointer;
+        background-color: $clr1;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: transparent;
+            color: $clr1;
+        }
+    }
+
+    .img-container {
+        margin-inline-start: auto;
+        justify-self: end;
+        cursor: pointer;
+        border: 1px solid $clr2;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 8rem;
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            img {
+                animation: rotate 10s linear infinite;
+            }
+
+            .material-symbols-outlined {
+
+                font-variation-settings:
+                    'FILL' 0,
+                    'wght' 700,
+                    'GRAD' 200,
+                    'opsz' 48;
+                font-size: 2.5rem;
+                position: absolute;
+                text-decoration: none;
+                color: aqua;
+
+            }
+
+        }
+
+
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+.education {
+    grid-column: 2;
+    margin-block-start: 30rem;
+    padding-block-end: 5rem;
+
+    @include for-mobile-layout {
+        margin-block-start: 10rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    p {
+        color: $clr2;
+        line-height: 2;
+    }
+}
