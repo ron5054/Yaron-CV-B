@@ -1,13 +1,13 @@
 <template>
     <section class="sidebar-container">
         <div class="info">
-            <h1>Yaron</h1>
-            <span>Frontend/Full Stack <br> Developer</span>
+            <h1>Yaron Levy</h1>
+            <span>Frontend / Full Stack <br> Developer</span>
         </div>
         <img src="../assets/imgs/me.jpg" alt="">
         <div class="contact">
-            <h2>054-642-99-50</h2>
-            <h3>ron5054@gmail.com</h3>
+            <h2>ron5054@gmail.com</h2>
+            <h2>054-642-9950</h2>
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/yaron.levy1" class="fb" target="_blank"><svg width="24" height="24"

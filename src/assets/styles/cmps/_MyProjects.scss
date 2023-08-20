@@ -40,6 +40,10 @@
                 text-decoration: none;
                 color: black;
 
+                &:hover {
+                    outline: 2px solid $clr1;
+                }
+
 
                 &.code {
                     left: 10rem;
@@ -129,7 +133,12 @@
                     a {
                         background-color: rgb(50, 50, 50);
                         color: $clr1;
+
+                        &:hover {
+                            outline: 2px solid $clr1;
+                        }
                     }
+
                 }
 
             }
@@ -183,6 +192,10 @@
                         transition: .3s;
                         background-color: rgb(50, 50, 50);
                         color: $clr1;
+
+                        &:hover {
+                            outline: 2px solid $clr1;
+                        }
                     }
                 }
 
@@ -224,6 +237,10 @@
                     transition: .3s;
                     background-color: rgb(50, 50, 50);
                     color: $clr1;
+
+                    &:hover {
+                        outline: 2px solid $clr1;
+                    }
                 }
 
             }
